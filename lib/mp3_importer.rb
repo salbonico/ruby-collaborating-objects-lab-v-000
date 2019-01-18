@@ -6,7 +6,7 @@ def initialize(filename)
   @path = filename
 end
 
-def import
+def files
   @files
   raw_files = Dir.entries(@path)
   raw_files.each do |element|
