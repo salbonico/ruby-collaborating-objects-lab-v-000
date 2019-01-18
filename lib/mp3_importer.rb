@@ -9,6 +9,10 @@ end
 def import
   @files
   raw_files = Dir.entries(@path)
-  raw_files.each
-
+  raw_files.each do |element|
+    if element.include?(".mp3") == true
+      @files.push(element)
+    end
+  end
+return @files
 end
