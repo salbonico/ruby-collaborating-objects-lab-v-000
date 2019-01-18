@@ -8,8 +8,9 @@ def initialize(name)
 end
 
 def new_by_filename(filename)
+  binding.pry
   array = filename.split(" - ")
-binding.pry
+
 end
 
 end
