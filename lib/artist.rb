@@ -32,5 +32,8 @@ end
 Artist.new(name)
 end
 
+self.print_songs
+@@all
+end
 
 end
