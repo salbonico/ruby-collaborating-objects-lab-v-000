@@ -22,7 +22,7 @@ def self.all
   @@all
 end
 
-def find_or_create_by_name(name)
+def self.find_or_create_by_name(name)
   @@all.each do |object|
     if object.name == name
       return object
