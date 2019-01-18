@@ -29,7 +29,7 @@ def self.find_or_create_by_name(name)
     end
 end
 
-Artist.new(name)
+return Artist.new(name)
 end
 
 def print_songs
