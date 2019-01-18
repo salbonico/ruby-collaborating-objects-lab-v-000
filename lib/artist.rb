@@ -33,7 +33,9 @@ return Artist.new(name)
 end
 
 def print_songs
-puts @songs
+@songs.each do |object|
+  puts object.song.name
+end
 end
 
 end
