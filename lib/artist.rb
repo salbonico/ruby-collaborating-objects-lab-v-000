@@ -32,8 +32,8 @@ end
 Artist.new(name)
 end
 
-def self.print_songs
-@@all
+def print_songs
+@songs
 end
 
 end
