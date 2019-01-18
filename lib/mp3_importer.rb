@@ -17,8 +17,8 @@ def files
 return @files
 end
 
-def import(files)
-  files.each do |filename|
+def import
+  self.files.each do |filename|
   Song.new_by_filename(filename)
 end
 end
