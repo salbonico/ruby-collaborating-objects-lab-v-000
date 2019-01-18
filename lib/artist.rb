@@ -34,7 +34,7 @@ end
 
 def print_songs
 @songs.each do |object|
-  puts objec.name
+  puts object.name
 end
 end
 
