@@ -7,10 +7,9 @@ def initialize(name)
   @name = name
 end
 
-def new_by_filename(filename)
-  binding.pry
+def self.new_by_filename(filename)
   array = filename.split(" - ")
-
+binding.pry 
 end
 
 end
