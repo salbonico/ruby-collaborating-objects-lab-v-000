@@ -33,7 +33,7 @@ return Artist.new(name)
 end
 
 def print_songs
-self.songs
+puts @songs
 end
 
 end
